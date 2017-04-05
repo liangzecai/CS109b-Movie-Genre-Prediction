@@ -17,4 +17,3 @@ TV Movie,1
 Thriller,160
 War,17
 Western,7
-imdb_id,732118909
