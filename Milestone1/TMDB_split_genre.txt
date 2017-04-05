@@ -1,0 +1,20 @@
+Action,217
+Adventure,190
+Animation,54
+Comedy,101
+Crime,73
+Documentary,1
+Drama,183
+Family,65
+Fantasy,101
+History,13
+Horror,43
+Music,7
+Mystery,48
+Romance,56
+Science Fiction,136
+TV Movie,1
+Thriller,160
+War,17
+Western,7
+n_genre,1473
