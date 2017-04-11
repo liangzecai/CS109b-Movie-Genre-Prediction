@@ -1,1 +1,27 @@
+## for Danqing:
+- download IMDB data in plain text, send it to Wenshan and Zecai
+- feature enginerring on `production company`, `director` and cast 
+   (choose the top X most frequenct names in each genre, 
+    transform the data into one-hot coding,
+    PCA to extract the first n PCs to cover y% variance,
+    x,y can be tuned later)
 
+## for Zecai:
+- write code to parse data into data.frame from IMDB and TMDB
+- text analysis on `title`, `plot summary` and `plot`
+  (summarize bag-of-world,
+   PCA to extract the first Y PCs to cover z% variance)
+
+## for Wenshan:
+-download the TMDB data (the top 10k by popularity)
+- write code to the combines database IMDB and TMDB 
+  (combine genres,
+   resolve inconsistent information,
+   resolve different column names of the same information,
+   resolve different formats of the same variable,
+   resolve missing values)
+   
+   --------------------------
+   
+   ### variables to select:
+   
