@@ -23,5 +23,31 @@
    
    --------------------------
    
-   ### variables to select:
+### variables to select:
    
+from IMDB:
+   # bench mark
+   group0 = ["genres", "imdb_id"] 
+   # quantitative
+   group1 = ["title", "year", "rating", "votes", "top 250 rank", "kind"]
+   # 
+   group2 = ["runtimes", "language codes", "languages", "country codes", "countries"]
+   #
+   group3 = ["mpaa", "mpaa_reason"]
+   #
+   group4 = ["director", "writer","cast","distributors", "producer", "production companies","cinematographer", "animation department", "original music", "editorial department"]
+   # the rest
+   group5 = ["cover url", "full-size cover url"," canonical title", "canonical title.1", "long imdb title", "long imdb canonical title", "smart canonical title", "smart long imdb canonical title"]
+        
+  
+from TMDB:
+
+  # bench mark
+  group0 = ['genres', 'imdb_id']
+  # new variable
+  group1 = ['revenue', 'status', 'release_date', 'popularity', 'adult', 'budget', 'tagline']
+  # overlapping
+  group2 = ['production_countries', 'original_language', , 'spoken_languages', 'production_companies', ,
+       , 'original_title', , 'vote_average', 'runtime', 'vote_count']
+  # the rest
+  group3 = [poster_path', 'overview', 'video', 'id', 'homepage', 'belongs_to_collection','backdrop_path']
