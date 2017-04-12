@@ -34,7 +34,7 @@ from IMDB:
    group2 = ["runtimes", "language codes", "languages", "country codes", "countries"]
    #
    group3 = ["mpaa", "mpaa_reason"]
-   #
+   # (the Dainqing)
    group4 = ["director", "writer","cast","distributors", "producer", "production companies","cinematographer", "animation department", "original music", "editorial department"]
    # the rest
    group5 = ["cover url", "full-size cover url"," canonical title", "canonical title.1", "long imdb title", "long imdb canonical title", "smart canonical title", "smart long imdb canonical title"]
