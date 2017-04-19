@@ -1,0 +1,35 @@
+
+X, Y
+--------
+
+["]
+
+
+
+
+@Danqing
+input: df
+output: 
+"imdb_ids"
+"director_1" ....
+"cast_PC1"
+
+["director"] x k
+["cast"] x 10
+["production company"] x 5
+["writer"] x k
+["animation department"] x 1
+["original music"] x 1
+
+
+@Zecai
+input: df
+output: 
+["plot" + "plot outline"] x 10  "plot_PC1"
+["mpaa_reason"] all 
+["tagline" + "title"] x 10  "title_PC1"
+
+--------
+model
+--------
+y score
