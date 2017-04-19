@@ -2,10 +2,18 @@
 X, Y
 --------
 
-["]
+[year]
+IMDB[rating]
+IMDB[votes]
+[countries]
+[popularity]
+[runtime]
 
-
-
+mean imputation of missing value:
+[runtime] == 0
+[year] = NA
+[rating] = NA
+[votes] = NA
 
 @Danqing
 input: df
@@ -25,7 +33,7 @@ output:
 @Zecai
 input: df
 output: 
-["plot" + "plot outline"] x 10  "plot_PC1"
+["plot" + "plot outline" + "overview" + ] x 10  "plot_PC1"
 ["mpaa_reason"] all 
 ["tagline" + "title"] x 10  "title_PC1"
 
