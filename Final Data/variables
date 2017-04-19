@@ -33,9 +33,8 @@ output:
 @Zecai
 input: df
 output: 
-["plot" + "plot outline" + "overview" + ] x 10  "plot_PC1"
-["mpaa_reason"] all 
-["tagline" + "title"] x 10  "title_PC1"
+["title" +  "plot outline" + "plot" + "overview" + "tagline"] x 10  "plot_PC1"
+["mpaa_reason"] all
 
 --------
 model
