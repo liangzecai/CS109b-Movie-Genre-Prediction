@@ -1,2 +1,15 @@
 link to npy file for 5K posters
 https://drive.google.com/file/d/0BzVcSNsJvQmnb2ZrWTBOUHFhSlU/view?usp=sharing
+
+id_5000
+data_image_cnn_5000 [5000, 224, 224, 3]
+data_image_5000 [5000, 150825]
+data_genre_5000 (8 class)
+
+------------
+re-run text analysis: 
+data_feature_5000
+
+------------
+feature selection
+tune SVM
