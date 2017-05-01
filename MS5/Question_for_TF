@@ -1,0 +1,14 @@
+Zecai
+Q.  What's next for deep learning on posters?
+Do we use pre-trained model? Or train our hand-built CNN? Should we fine-tune to what extend?
+
+Q. Text analysis (plot, plot-outline, mpaa_reason, tagline, overview)
+tf-idf gives too long a vector;
+PCA (even the firs 20 PCs) retrives little variance;
+what we try deep laerning? than what structure of the neural network (MLP)?
+
+Q. how to incoroprate poster data (deep learning results) with the classical ML results?
+
+Q. instructions on final report? what to report? focus?
+
+Q. instrucitons on video?
