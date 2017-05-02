@@ -9,3 +9,14 @@ in MS5
 
 data_feature_4865:
 in MS5 folder
+
+data_text_4865_train:
+in MS5 folder
+- combine text data in ['title', 'plot', 'plot outline', 'overview_TMDB', 'tagline_TMDB']
+- tf-idf
+- PCA, store the first 283 PCs that explain 60% variance
+
+data_text_4865_test:
+in MS5 folder
+- fit the TfidfVectorizer model trained by the training data
+- fit the PCA model trained by the training data
