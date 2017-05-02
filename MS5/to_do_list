@@ -4,8 +4,8 @@ Slide: https://docs.google.com/presentation/d/1jPcOX9Y-bPsCQCMaGIidsoIYBnDa7CF3g
 WORKFLOW 
 Paper
 1. Data preparation (one page) (## Wenshan) 
-  - Describe how we obtained data (Imdb, Tmdb), and why did we choose to work with 5000 data. 
-  - Describe data cleaning process 
+  - Describe how we obtained data (Imdb, Tmdb), and why did we choose to work with 5000 data.
+  - Describe data cleaning process, how we combine the two databases. 
   - Data exploration, corr matirx (fig), histogram with grouped genre (fig), why we chose 8 genres 
 
 2. Classical machine learning (two pages)
