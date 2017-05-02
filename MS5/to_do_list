@@ -21,3 +21,27 @@ Question:
 classic ML+DL
 text
 video
+
+WORKFLOW 
+Paper
+1. Data preparation (one page)
+  - Describe how we obtained data, and why did we choose to work with 5000 data. 
+  - Describe data cleaning process 
+  - Data exploration, corr matirx (fig), histogram with grouped genre (fig), why we chose 8 genres
+
+2. Classical machine learning (two pages)
+  - feature engineering:
+      - numerial meta-data, list
+      - production-related information, process with flowchart (director selection by genre, PCA process)
+      - text analysis, describe process, justify process, fig of text analysis in 2D
+  - Comparing baseline models - accuracy barchart. 
+  - Tuning SVM, best SVM is final model for classical. Interpret the parameters for feature importance. (get_param)
+  
+3. Deep learning (two pages)
+  - processing poster data using array 
+  - Models we tried, accuracy table: MLP1, MLP2, MLP3, VGG16, CNN
+  - Elaborate on our CNN model. Show a few filters (fig). 
+  
+4. Compare classical with deep learning. 
+
+5. Conclusions 
