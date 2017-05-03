@@ -1,5 +1,5 @@
 # CS109b_Project
-
+Slides: https://drive.google.com/file/d/0BzVcSNsJvQmnTGlvNDlpX2Y3c28/view?usp=sharing
 TMDB raw data "TMDb_data_25K.txt"
 - Wenshan randomly downloaded 25k data from TMDB API
 - provide 25k movie id "imdb_id25K.txt"
