@@ -1,13 +1,9 @@
 # CS109b_Project
-Slides: https://drive.google.com/file/d/0BzVcSNsJvQmnTGlvNDlpX2Y3c28/view?usp=sharing
-TMDB raw data "TMDb_data_25K.txt"
-- Wenshan randomly downloaded 25k data from TMDB API
-- provide 25k movie id "imdb_id25K.txt"
+Slides: 
+https://drive.google.com/file/d/0BzVcSNsJvQmnTGlvNDlpX2Y3c28/view?usp=sharing
 
-IMDB raw data "imdb_data_25k.txt"
-- using code "MS2_IMDb_25k_ZECAI.py"
-- Daingqing downloaded the first half
-- Zecai downloaded the second hald
+Youtube:
+https://youtu.be/974Valjs0J4
 
----------------------------------------
-Zecai: parse IMDB data and hand it to Wenshan
+Report: 
+https://docs.google.com/document/d/1qbyGZj90rs5NbPKAnD_bJ0W5mpb2XF4h9bQgOeDzNpc/edit
