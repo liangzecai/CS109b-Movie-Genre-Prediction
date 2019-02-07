@@ -1,4 +1,7 @@
-# CS109b_Project
+# [CS109b Project] Movie Genre Prediction
+
+We built a multi-label classification model to predict the genre of a given movie using a combination of structured (production and cast) and unstructured data (movie plots and movie posters), to facilitate decisions in film making.
+
 Slides: 
 https://drive.google.com/file/d/0BzVcSNsJvQmnTGlvNDlpX2Y3c28/view?usp=sharing
 
