@@ -1,0 +1,13 @@
+TMDb_data.txt: top 500 movies from TMDB API (sorted by rating), include "imdb_ids"
+
+IMDb_data.txt: extract data about the same movies using ""imdb_ids"
+
+IMDB_web_genre.txt: information on the IMDB website about how many gerens and how many items under each genre
+
+IMDB_split_genre.txt: organized from the `IMDb_data.txt`, dummy codings of different genres for each movie
+
+IMDB_split_genre_count.txt: summarized from the 'IMDB_split_genre.txt', count number of items for each genre
+
+TMDB_split_genre.txt: organized from the `TMDb_data.txt`, dummy codings of different genres for each movie
+
+TMDB_split_genre_count.txt: summarized from the 'TMDB_split_genre.txt', count number of items for each genre

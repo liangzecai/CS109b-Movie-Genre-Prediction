@@ -1,0 +1,42 @@
+
+X, Y
+--------
+
+[year]
+IMDB[rating]
+IMDB[votes]
+[countries]
+[popularity]
+[runtime]
+
+mean imputation of missing value:
+[runtime] == 0
+[year] = NA
+[rating] = NA
+[votes] = NA
+
+@Danqing
+input: df
+output: 
+"imdb_ids"
+"director_1" ....
+"cast_PC1"
+
+["director"] x k
+["cast"] x 10
+["production company"] x 5
+["writer"] x k
+["animation department"] x 1
+["original music"] x 1
+
+
+@Zecai
+input: df
+output: 
+["title" +  "plot outline" + "plot" + "overview" + "tagline"] x 10  "plot_PC1"
+["mpaa_reason"] all
+
+--------
+model
+--------
+y score

@@ -1,0 +1,43 @@
+data: https://drive.google.com/file/d/0B0sqMbB3IUAZTERlRVVXcDBna1k/view?usp=sharing
+Merged feature file: https://drive.google.com/file/d/0BzVcSNsJvQmnQjlXRVNsQXl6U1k/view?usp=sharing
+Poster link:https://drive.google.com/drive/folders/0BzVcSNsJvQmnVTlaZE1yRkdRTWs?usp=sharing
+
+From CS109b TF to Everyone: (08:06 PM)
+http://stackoverflow.com/questions/10526579/use-scikit-learn-to-classify-into-multiple-categories
+http://scikit-learn.org/dev/modules/multiclass.html
+http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/
+
+
+
+
+
+Q. what's next? (by Monday?)
+
+for Wenshan:
+1. add to it the TMDB variables we want to keep
+2. delete variables of different versions of title
+3. merge "genres" from IMDB and TMDB
+4. turn genres to one-hot coding
+(we don't need to parse by loop, see the code in "MS2_dummy coding.ipynb" )
+5. generate two files:
+"data_25k_feature.txt"
+"data_25k_genres.txt" (already turned into one-hot coding)
+
+6. also, generate the corrorelation matrix for different genres using the 25k data (we cae use this as the filter to group different genres)
+
+for Danqing:
+1. you can start looking into variables: 'director', 'distributors', 'producer', 'writer', 'production companies', 
+               'cinematographer', 'cast', 'animation department', 'original music'
+2. you don't need to parse again for again, see the code in "MS2_dummy coding.ipynb", which can turn the string into dummy variables
+3. do PCA and return data frames called df_director where each column is called "director_pc1"
+4.  also record the number of the items ('director' for example) for each movie (add the row for dummy matrix) and form a variable called "director_number"
+
+for Zecai:
+similar as Danqing, do text analysis on "title","plot outline", "plot", "mpaa_reason", "tagline_TMDB"
+
+--------------------------------------
+after forming our final data:
+baseline classifier:
+- SVM
+- random forest
+- grouped genre
